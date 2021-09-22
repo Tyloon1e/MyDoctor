@@ -1,0 +1,8 @@
+main: me.Tyloon1e.MyDoctor.MyDoctor
+name: MyDoctor
+description: MyDoctor heals you well.
+version: 1.0.0
+author: Tyloon1e
+commands:
+  mydoctor:
+    aliases: doctor
