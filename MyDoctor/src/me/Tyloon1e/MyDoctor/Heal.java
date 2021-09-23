@@ -29,7 +29,7 @@ public class Heal implements CommandExecutor {
 				return true; // we kick them out if they don't have permission
 			}
 
-			if (arguments.length == 0) /* /doctor */ {
+			if (arguments.length == 0) {
 				TextComponent message = new TextComponent("Would you like to be healed?"); // important to use Bungee API for this
 				message.setColor(ChatColor.GOLD);
 				message.setBold(true);
